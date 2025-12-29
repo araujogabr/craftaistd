@@ -33,7 +33,7 @@ const plans = [
       "Botão WhatsApp integrado",
       "Design responsivo",
       "Entrega em 72h",
-      "Formulário + E-mail integrado",
+      "Formulário integrado",
       "Suporte pós-entrega: 7 dias",
       "Não inclui domínio"
     ],
@@ -50,8 +50,9 @@ const plans = [
       "Botão WhatsApp integrado",
       "Design responsivo",
       "Entrega em 5 dias",
-      "Formulário + E-mail integrado",
+      "Formulário integrado",
       "Domínio por 1 ano incluso",
+      "Email profissional incluso",
       "Google Analytics básico",
       "Suporte pós-entrega: 30 dias"
     ],
@@ -190,7 +191,7 @@ export default function PricingSection() {
           <div className="max-w-2xl mx-auto bg-amber-50 border border-amber-200 rounded-xl p-4">
             <p className="text-sm text-amber-900 font-medium mb-2">⚠️ Informações importantes:</p>
             <ul className="text-sm text-amber-800 space-y-1">
-              <li>• Nenhum plano inclui hospedagem</li>
+              <li>• Todos os planos incluem hospedagem frees</li>
               <li>• Parcelamento disponível apenas no plano Premium sem juros</li>
             </ul>
           </div>
