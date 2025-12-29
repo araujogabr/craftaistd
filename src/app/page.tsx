@@ -74,10 +74,12 @@ export default function Home() {
       {/* Pricing - already has id="pricing" inside component */}
       <PricingSection />
       
-      {/* Testimonials */}
+      {/* Testimonials 
       <div id="testimonials">
         <TestimonialsSection />
       </div>
+      */}
+
       
       {/* Portfolio */}
       <div id="portfolio">
